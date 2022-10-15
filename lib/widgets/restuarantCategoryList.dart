@@ -13,19 +13,20 @@ class RestaurantListWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-          color: Colors.white,
-          borderRadius: const BorderRadius.all(
-            Radius.circular(20),
-          ),
-          boxShadow: [
-            BoxShadow(
-              color: Colors.black.withOpacity(0.5),
-              spreadRadius: 0.2,
-              blurRadius: 20,
-              offset: const Offset(0, 3),
-            )
-          ]),
-      margin: const EdgeInsets.only(left: 10, right: 10),
+        color: Colors.white,
+        borderRadius: const BorderRadius.all(
+          Radius.circular(20),
+        ),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withOpacity(0.5),
+            spreadRadius: 0.2,
+            blurRadius: 20,
+            offset: const Offset(0, 3),
+          )
+        ],
+      ),
+      margin: const EdgeInsets.only(left: 10, right: 10, top: 10),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [

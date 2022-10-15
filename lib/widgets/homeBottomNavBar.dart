@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:food_app/pages/restaurantpage.dart';
 
 class HomeBottomNavBar extends StatefulWidget {
   const HomeBottomNavBar({super.key});
@@ -25,7 +26,14 @@ class _HomeBottomNavBarState extends State<HomeBottomNavBar> {
               Icons.home_sharp,
               color: indexx == 0 ? Colors.black : const Color(0xff7E869E),
             ),
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const RestaurantPage(),
+                ),
+              );
+            },
           ),
           label: "",
         ),
