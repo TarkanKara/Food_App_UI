@@ -1,9 +1,8 @@
 ## [Food_App_UI](https://www.figma.com/community/file/1156817388094507994)
 ![FoodAppUI](https://user-images.githubusercontent.com/59411109/196004014-23b591ba-5951-4bdd-9575-694360b667e8.gif)
 
-![GitGraph](https://user-images.githubusercontent.com/59411109/196003775-3690b82c-af3a-49a4-893f-05bea4212c02.png)
-
 ### Branch Branching
+![GitGraph](https://user-images.githubusercontent.com/59411109/196003775-3690b82c-af3a-49a4-893f-05bea4212c02.png)
 
 ### Branch Branching
 * **Master**
