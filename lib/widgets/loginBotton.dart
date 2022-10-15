@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:food_app/pages/homepage.dart';
 
 class LoginButtonWidget extends StatelessWidget {
   final Function? onTapp;
@@ -18,7 +19,12 @@ class LoginButtonWidget extends StatelessWidget {
     return GestureDetector(
       onTap: () {
         onTapp;
-        //Navigator.push()
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => const HomePage(),
+          ),
+        );
       },
       child: Padding(
         padding: const EdgeInsets.only(left: 20, right: 20),
