@@ -32,6 +32,7 @@ class HomeKategoriCircleAvatarWidgets extends StatelessWidget {
             ),
           ),
           //const Spacer(flex: 1),
+          const SizedBox(height: 5),
           Text(
             avatarText,
             style: const TextStyle(

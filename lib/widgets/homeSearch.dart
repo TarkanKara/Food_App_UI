@@ -9,7 +9,7 @@ class HomeAppBarSearchWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.only(
-        left: 20,
+        left: 10,
       ),
       child: Padding(
         padding: const EdgeInsets.only(left: 1, right: 20),
