@@ -20,30 +20,42 @@ class _HomeBottomNavBarState extends State<HomeBottomNavBar> {
       },
       items: [
         BottomNavigationBarItem(
-          icon: Icon(
-            Icons.home_sharp,
-            color: indexx == 0 ? Colors.black : const Color(0xff7E869E),
+          icon: IconButton(
+            icon: Icon(
+              Icons.home_sharp,
+              color: indexx == 0 ? Colors.black : const Color(0xff7E869E),
+            ),
+            onPressed: () {},
           ),
           label: "",
         ),
         BottomNavigationBarItem(
-          icon: Icon(
-            Icons.favorite_border,
-            color: indexx == 1 ? Colors.black : const Color(0xff7E869E),
+          icon: IconButton(
+            icon: Icon(
+              Icons.favorite_border,
+              color: indexx == 1 ? Colors.black : const Color(0xff7E869E),
+            ),
+            onPressed: () {},
           ),
           label: "",
         ),
         BottomNavigationBarItem(
-          icon: Icon(
-            Icons.shopping_cart_outlined,
-            color: indexx == 2 ? Colors.black : const Color(0xff7E869E),
+          icon: IconButton(
+            icon: Icon(
+              Icons.shopping_cart_outlined,
+              color: indexx == 2 ? Colors.black : const Color(0xff7E869E),
+            ),
+            onPressed: () {},
           ),
           label: "",
         ),
         BottomNavigationBarItem(
-          icon: Icon(
-            Icons.person,
-            color: indexx == 3 ? Colors.black : const Color(0xff7E869E),
+          icon: IconButton(
+            icon: Icon(
+              Icons.person,
+              color: indexx == 3 ? Colors.black : const Color(0xff7E869E),
+            ),
+            onPressed: () {},
           ),
           label: "",
         ),
